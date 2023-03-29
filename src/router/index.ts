@@ -56,6 +56,16 @@ const router = createRouter({
       name: 'dom',
       component: () => import('@/views/Dom.vue')
     },
+    {
+      path: '/event',
+      name: 'event',
+      component: () => import('@/views/Event.vue')
+    },
+    {
+      path: '/animation',
+      name: 'animation',
+      component: () => import('@/views/Animation.vue')
+    },
   ],
 });
 
