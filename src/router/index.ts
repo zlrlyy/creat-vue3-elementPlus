@@ -66,6 +66,16 @@ const router = createRouter({
       name: 'animation',
       component: () => import('@/views/Animation.vue')
     },
+    {
+      path: '/canvas',
+      name: 'canvas',
+      component: () => import('@/views/Canvas.vue')
+    },
+    {
+      path: '/scroll',
+      name: 'scroll',
+      component: () => import('@/views/Scroll.vue')
+    },
   ],
 });
 
