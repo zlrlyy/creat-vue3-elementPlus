@@ -16,14 +16,14 @@ html,
 body {
   height: 100%;
   overflow-x: hidden;
-  scroll-snap-type: y mandatory;
+  /* scroll-snap-type: y mandatory; */
 }
 .route {
   margin-bottom: 20px;
   display: inline-block;
   text-align: center;
   width: 100px;
-  font-size: 20px;
+  /* font-size: 20px; */
 }
 .routerContain {
   scroll-snap-align: start;
