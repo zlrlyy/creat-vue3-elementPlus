@@ -158,6 +158,11 @@ const router = createRouter({
       path: '/error',
       name: 'error',
       component: () => import('@/views/Error.vue')
+    },
+    {
+      path: '/XML',
+      name: 'XML',
+      component: () => import('@/views/XML.vue')
     }
   ],
 });

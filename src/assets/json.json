@@ -1,0 +1,22 @@
+[
+  {
+    "string": "string",
+    "number": 0,
+    "boolean": true,
+    "null": null,
+    "array": [1, 2],
+    "object": {
+      "object1": 1
+    }
+  },
+  {
+    "string": "string",
+    "number": 0,
+    "boolean": true,
+    "null": null,
+    "array": [1, 2],
+    "object": {
+      "object1": 1
+    }
+  }
+]

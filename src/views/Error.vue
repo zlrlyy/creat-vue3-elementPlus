@@ -1,7 +1,4 @@
-<template>
-  <p><div></div></p>
-
-</template>
+<template></template>
 <script lang="ts" setup>
 const image = new Image()
 image.addEventListener('load', (event) => {
