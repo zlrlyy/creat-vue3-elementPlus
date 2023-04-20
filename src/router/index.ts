@@ -163,6 +163,11 @@ const router = createRouter({
       path: '/XML',
       name: 'XML',
       component: () => import('@/views/XML.vue')
+    },
+    {
+      path: '/indexedDB',
+      name: 'indexedDB',
+      component: () => import('@/views/IndexedDB.vue')
     }
   ],
 });
